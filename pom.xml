@@ -27,9 +27,7 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-  </distributionManagement>
-         
-  <distributionManagement>
+           
     <snapshotRepository>
         <id>jenkinsbuild</id>
         <url>https://blob.core.windows.net/</url>
