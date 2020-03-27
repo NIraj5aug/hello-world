@@ -31,11 +31,11 @@
          
   <distributionManagement>
     <snapshotRepository>
-        <id>bobstorage808827</id>
+        <id>jenkinsbuild</id>
         <url>https://blob.core.windows.net/</url>
     </snapshotRepository>
     <repository>
-        <id>bobstorage808827</id>
+        <id>jenkinsbuild</id>
         <url>https://blob.core.windows.net/</url>
     </repository>
   </distributionManagement>
