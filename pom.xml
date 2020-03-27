@@ -28,6 +28,17 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
+         
+  <distributionManagement>
+    <snapshotRepository>
+        <id>bobstorage808827</id>
+        <url>https://blob.core.windows.net/</url>
+    </snapshotRepository>
+    <repository>
+        <id>bobstorage808827</id>
+        <url>https://blob.core.windows.net/</url>
+    </repository>
+  </distributionManagement>
 
   <build>
     <plugins>
