@@ -216,13 +216,7 @@
     </dependencies>
   </dependencyManagement>
          
-   <extensions>
-        <extension>
-            <groupId>com.gkatzioura.maven.cloud</groupId>
-            <artifactId>azure-storage-wagon</artifactId>
-            <version>1.0</version>
-        </extension>
-    </extensions>
+
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
@@ -233,6 +227,18 @@
 
   <prerequisites>
     <maven>3.0.3</maven>
-  </prerequisites>
+  </prerequisites>   
+         
+         
+  <extensions>
+       <extension>
+           <groupId>com.gkatzioura.maven.cloud</groupId>
+           <artifactId>azure-storage-wagon</artifactId>
+           <version>1.0</version>
+       </extension>
+   </extensions>
+         
+         
+         
 
 </project>
