@@ -47,15 +47,8 @@
           <target>1.6</target>
         </configuration>
       </plugin>
-             
-    <extensions>
-        <extension>
-            <groupId>com.gkatzioura.maven.cloud</groupId>
-            <artifactId>azure-storage-wagon</artifactId>
-            <version>1.0</version>
-        </extension>
-    </extensions>
-  
+           
+     
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
@@ -222,6 +215,14 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+         
+   <extensions>
+        <extension>
+            <groupId>com.gkatzioura.maven.cloud</groupId>
+            <artifactId>azure-storage-wagon</artifactId>
+            <version>1.0</version>
+        </extension>
+    </extensions>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
